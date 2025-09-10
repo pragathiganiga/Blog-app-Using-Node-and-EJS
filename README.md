@@ -23,18 +23,19 @@ Posts are stored only in memory (no database), so they reset when the server res
 ---
 
 ## 📂 Project Structure
+```plaintext
 my-blog/
 │── public/
-│ └── styles.css # Stylesheet
+│   └── styles.css         # Stylesheet
 │
 │── views/
-│ ├── partials/
-│ │ ├── header.ejs # Header layout
-│ │ └── footer.ejs # Footer layout
-│ ├── index.ejs # Home page (list posts + form)
-│ ├── edit.ejs # Edit post page
-│ └── layout.ejs # Base template
+│   ├── partials/
+│   │   ├── header.ejs     # Header layout
+│   │   └── footer.ejs     # Footer layout
+│   ├── index.ejs          # Home page (list posts + form)
+│   ├── edit.ejs           # Edit post page
+│   └── layout.ejs         # Base template
 │
-│── app.js # Express server
-│── package.json # Project dependencies
-│── README.md # Project documentation
+│── app.js                 # Express server
+│── package.json           # Project dependencies
+│── README.md              # Project documentation
